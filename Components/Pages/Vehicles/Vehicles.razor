@@ -1,0 +1,30 @@
+﻿@page "/Vehicles"
+@inject ISwapiService Service
+
+<h3>List of Vehicles: </h3>
+
+@foreach (var obj in _listOfVehicles)
+{
+    <Card Name="@obj.Name">
+        @if (count < 10)    // only the first 10 vehicles has the image so checking the number 
+        {
+            imgPath = $"/assets/images/vehicles/{obj.Id}.jpg";
+            <img src="@imgPath" height="350px" width="400px"> <br/>
+            count++;
+        }
+        <a href="/VehicleDetails/@obj.Id/@count" class="btn btn-primary mt-4">Vehicle's details</a> <!-- Button to Details Page, passing person ID on URl -->
+    </Card>
+}
+<h4>Count @_listOfVehicles.Count()</h4>
+
+
+@code {
+    private IEnumerable<Vehicle> _listOfVehicles = [];
+    public int count;
+    public string imgPath;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _listOfVehicles = await Service.GetVehicle();
+    }
+}

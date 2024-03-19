@@ -1,0 +1,197 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SwapiAPI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SwapiAPI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\Starwars-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Starwars-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\characters\\desktop.ini",
+      "PackagePath": "staticwebassets\\assets\\images\\characters\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\movies\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\movies\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\movies\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\movies\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\movies\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\movies\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\movies\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\movies\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\movies\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\movies\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\movies\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\movies\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\movies\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\movies\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\planets\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\planets\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\assets\\images\\vehicles\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\vehicles\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Mattia Vaccarello\\RiderProjects\\SwapiAPI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SwapiAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SwapiAPI.props",
+      "PackagePath": "build\\SwapiAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SwapiAPI.props",
+      "PackagePath": "buildMultiTargeting\\SwapiAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SwapiAPI.props",
+      "PackagePath": "buildTransitive\\SwapiAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

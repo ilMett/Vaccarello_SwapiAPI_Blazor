@@ -1,0 +1,15 @@
+﻿<div class="card mb-3 d-inline-block me-3" style="width: 440px;">  <!-- Setting a kind of HTML tag to create a tag, I can recycle this -->
+  <div class="card-header text-center">
+    <h5>@Name</h5>  <!-- The attribute Name cannot be null, it's a must have -->
+  </div>
+  <div class="card-body">
+    @ChildContent     <!-- ChildContent: gives me the opportunity to write HTML code inside the card to fill the card body -->
+  </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? Name { get; set; }
+    [Parameter] 
+    public RenderFragment? ChildContent { get; set; }
+}

@@ -1,0 +1,52 @@
+﻿@page "/PlanetDetails/{id:int}"
+<h3>Planet's Details:</h3>
+
+<div class="d-flex">
+    
+    <div>
+        <Card Name="@Response.PlanetResult.PlanetProperties.Name">
+            <p>Population: @Response.PlanetResult.PlanetProperties.Population</p>
+            <p>Climate: @Response.PlanetResult.PlanetProperties.Climate</p>
+            <p>Diameter: @Response.PlanetResult.PlanetProperties.Diameter</p>
+            <p>Gravity: @Response.PlanetResult.PlanetProperties.Gravity</p>
+            <p>Terrain: @Response.PlanetResult.PlanetProperties.Terrain</p>
+            <p>Surface Water: @Response.PlanetResult.PlanetProperties.SurfaceWater</p>
+            <p>Orbital Period: @Response.PlanetResult.PlanetProperties.OrbitalPeriod</p>
+            <p>Rotation Period: @Response.PlanetResult.PlanetProperties.RotationPeriod</p>
+        </Card>
+    </div>
+    
+    
+    @if (Id <= 10)  // printing images 
+    {
+        <div class="me-3">
+            <img src="@GetPath()" width="auto" height="440px">
+        </div>
+        
+    }
+</div>
+
+<!-- Button to get back to the list of Planets -->
+<a href="/Planets" class="btn btn-primary mt-4">Go back to the list</a> <br/>
+
+@code {
+    [Parameter]
+    public int Id { get; set; } // here I put the id fetched from URL 
+    public GetPlanetDetails? Response { get; set; } = new GetPlanetDetails();     
+    
+    protected override async Task OnInitializedAsync()
+    {
+        string url = $"https://swapi.tech/api/planets/{Id}/";
+        
+        // doing a HttpRequest to the page containing vehicles's details
+        HttpClient client = new HttpClient();
+        Response = await client.GetFromJsonAsync<GetPlanetDetails>(url);
+    }
+
+    
+    private string GetPath()
+    {
+        return $"/assets/images/planets/{Id}.jpg";
+    }
+    
+}

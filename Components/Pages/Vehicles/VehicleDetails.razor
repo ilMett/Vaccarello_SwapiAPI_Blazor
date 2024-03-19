@@ -1,0 +1,54 @@
+﻿@page "/VehicleDetails/{id:int}/{count:int}"
+<h3>Vehicle's Details:</h3>
+
+<div class="d-flex">
+    
+    <div>
+        <Card Name="@Response.VehicleResult.VehicleProperties.Name">
+            <p>Length: @Response.VehicleResult.VehicleProperties.Length</p>
+            <p>Manufacturer: @Response.VehicleResult.VehicleProperties.Manufacturer</p>
+            <p>Cost: @Response.VehicleResult.VehicleProperties.CostInCredits credits</p>
+            <p>Model: @Response.VehicleResult.VehicleProperties.Model</p>
+            <p>Passengers: @Response.VehicleResult.VehicleProperties.Passengers</p>
+            <p>Crew: @Response.VehicleResult.VehicleProperties.Crew</p>
+        </Card>
+    </div>
+    
+    
+    @if (Count <= 10)  // printing images 
+    {
+        <div class="me-3">
+            <img src="@GetPath()" width="auto" height="440px">
+        </div>
+        
+    }
+</div>
+
+<!-- Button to get back to the list of Vehicles -->
+<a href="/Vehicles" class="btn btn-primary mt-4">Go beck to the list</a> <br/>
+
+@code {
+    [Parameter] 
+    public int Id { get; set; } // here I put the id fetched from URL 
+    [Parameter] 
+    public int Count { get; set; }  // check if is one of the 10 vehicles with image
+    
+    
+    public GetVehicleDetails? Response { get; set; } = new GetVehicleDetails();
+
+    protected override async Task OnInitializedAsync()
+    {
+        string url = $"https://swapi.tech/api/vehicles/{Id}/";
+
+        // doing a HttpRequest to the page containing person's details
+        HttpClient client = new HttpClient();
+        Response = await client.GetFromJsonAsync<GetVehicleDetails>(url);
+    }
+
+
+    private string GetPath()
+    {
+        return $"/assets/images/vehicles/{Id}.jpg";
+    }
+
+}

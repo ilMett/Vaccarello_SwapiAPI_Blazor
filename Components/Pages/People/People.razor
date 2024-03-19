@@ -1,0 +1,30 @@
+﻿@page "/"
+@inject ISwapiService Service
+
+
+<PageTitle>List of People</PageTitle>
+
+<h1>List of People: </h1>
+
+@foreach (var obj in _listOfPeople)
+{
+    <Card Name="@obj.Name">
+        @if (obj.Id <= 10)   // I've only added 10 images so I check if we are under that number of id
+        {
+            var imgPath = $"/assets/images/characters/{obj.Id}.jpg";
+            <img src="@imgPath" height="350px" width="400px" > <br/>
+        }
+        <a href="/PeopleDetails/@obj.Id" class="btn btn-primary mt-4">Person's details</a>  <!-- Button to Details Page, passing person ID on URl -->
+    </Card>
+}
+<h4>Count @_listOfPeople.Count()</h4>
+
+@code
+{
+    private IEnumerable<Person> _listOfPeople = [];
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _listOfPeople = await Service.GetPerson();
+    }
+}

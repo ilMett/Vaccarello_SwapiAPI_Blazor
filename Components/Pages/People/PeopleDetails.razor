@@ -1,0 +1,52 @@
+﻿@page "/PeopleDetails/{id:int}"
+
+<h3>Person's Details:</h3>
+
+<div class="d-flex">
+    
+    <div>
+        <Card Name="@Response.PersonResult.PersonProperties.Name">
+            <p>Birth Year: @Response.PersonResult.PersonProperties.BirthYear </p>
+            <p>Hairs: @Response.PersonResult.PersonProperties.HairColor</p>
+            <p>Eyes: @Response.PersonResult.PersonProperties.EyeColor</p>
+            <p>Gender: @Response.PersonResult.PersonProperties.Gender</p>
+            <p>Skin Color: @Response.PersonResult.PersonProperties.SkinColor</p>
+            <p>Height: @Response.PersonResult.PersonProperties.Height cm</p>
+            <p>Weight: @Response.PersonResult.PersonProperties.Mass kg</p>
+        </Card>
+    </div>
+    
+    
+    @if (Id <= 10)  // printing images 
+    {
+        <div class="me-3">
+            <img src="@GetPath()" width="auto" height="440px">
+        </div>
+        
+    }
+</div>
+
+    
+<!-- Button to get back to the list of People -->
+<a href="/" class="btn btn-primary mt-4">Go back to the list</a> <br/>
+
+@code {
+    [Parameter] public int Id { get; set; } // here I put the id fetched from URL 
+    public GetPersonsDetails? Response { get; set; } = new GetPersonsDetails();
+
+    protected override async Task OnInitializedAsync()
+    {
+        string url = $"https://swapi.tech/api/people/{Id}/";
+
+        // doing a HttpRequest to the page containing person's details
+        HttpClient client = new HttpClient();
+        Response = await client.GetFromJsonAsync<GetPersonsDetails>(url);
+    }
+
+
+    private string GetPath()
+    {
+        return $"/assets/images/characters/{Id}.jpg";
+    }
+
+}

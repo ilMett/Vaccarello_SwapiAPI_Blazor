@@ -1,0 +1,28 @@
+﻿@page "/Films"
+@inject ISwapiService Service
+
+
+<h3>List of Films:</h3>
+
+@foreach (var obj in _listOfFilms)
+{
+    <Card Name="@obj.Properties.Title">
+        <img src="@ImgPath(obj.Id)" height="auto" width="400px" >      <!-- Printing the movie poster -->
+        <p>Director: @obj.Properties.Director</p>
+        <p>Release Date: @obj.Properties.ReleaseDate</p>
+    </Card>
+}
+
+@code {
+    private IEnumerable<FilmResult> _listOfFilms = [];
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _listOfFilms = await Service.GetFilms();
+    }
+
+    private string ImgPath(int id)  // return the image path inside my project
+    {
+        return $"/assets/images/movies/{id}.jpg";
+    }
+}
